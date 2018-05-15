@@ -185,7 +185,7 @@ def demo():
 
 
     # create a network with two input, two hidden, and one output nodes
-    n= BPNNet(2, 2, 1)
+    n = BPNNet(2, 2, 1)
     # train it with some patterns
     n.train(pat)
     # test it
